@@ -1,0 +1,4 @@
+0	기초문법
+1	pandas
+2	pandas
+3	crawling
