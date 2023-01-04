@@ -22,7 +22,7 @@ select concat_ws('/', '2000', '01', '20') as '날짜';
 select ifnull(null, 100);
 select ifnull(10, 100);
 
--- isert('문자열1', index(시작위치), length(자리수), '문자열2') 
+-- insert('문자열1', index(시작위치), length(자리수), '문자열2') 
 -- : 문자열1의 index위치에 문자열2를 length길이 만큼 삽입.
 select insert('abcdefghi', 3, 4, '@@@@');
 select insert('abcdefghi', 3, 2, '@@@@');

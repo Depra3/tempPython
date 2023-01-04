@@ -1,2 +1,6 @@
-2,3     python-mysql 연동
-4       크롤링
+p-m 2,3     python-mysql 연동
+    4       크롤링
+
+m           cast, concat, concat_ws, ifnull, insert, left-right, repeat, lower-upper, lpad-rpad,
+            ltrim-rtrim, replace, space, abs, ceiling, floor, round, mod, pow, sqrt, length,
+            문자형, 숫자형, 날짜형, longtext
