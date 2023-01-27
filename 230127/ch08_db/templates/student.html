@@ -1,0 +1,19 @@
+<html>
+   <body>
+      <form action = "{{ url_for('addrec') }}" method = "POST">
+         <h3>학생정보</h3>
+         이름<br>
+         <input type = "text" name = "nm" /></br>
+         
+         주소<br>
+         <textarea name = "add" ></textarea><br>
+         
+         도시<br>
+         <input type = "text" name = "city" /><br>
+         
+         우편번호<br>
+         <input type = "text" name = "pin" /><br>
+         <input type = "submit" value = "submit" /><br>
+      </form>
+   </body>
+</html>
